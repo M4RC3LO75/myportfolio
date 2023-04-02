@@ -1,0 +1,208 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --purple: #8a35c8;
+    --darkpurple: #36154e;
+    --lightgreen: #a4ffe2;
+    --green: #00eea2;
+    --darkgreen: #084632;
+
+    --Montserrat: 'Montserrat', sans-serif;;
+    --handwrite: 'Marck Script', cursive;
+    --orbitron: 'Orbitron', sans-serif;
+}
+
+.Flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Flex2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    
+    background-image: linear-gradient(to right, var(--darkpurple), black, black, black, black, black, black, black, black, var(--darkpurple));
+    font-family: var(--Montserrat);
+    color: white;
+}
+
+header{
+    background-image: linear-gradient(to bottom, black,rgb(34, 49, 45), black);
+    min-height: 80px;
+    background-color: black;
+    text-align: center;
+    padding-top: 40px;
+}
+
+header h1{
+    font-family: var(--orbitron);
+    font-size: 3em;
+    letter-spacing: 0.1em;
+    font-weight: normal;
+    color: var(--green);
+    margin-bottom: 30px;
+    text-shadow: 0px 0px 20px #75ffd380;
+}
+
+nav {
+    background-image: linear-gradient(to bottom, black, var(--darkgreen));
+    padding: 10px;
+    padding-right: 30px;
+    box-shadow: 0px 10px 7px #00eea336;
+    text-align: right;
+    font-size: 1em;
+}
+
+nav a{
+    font-family: var(--orbitron);
+    font-weight: bold;
+    color: var(--green);
+    padding: 6px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition-duration: 0.7s;
+    margin: 0px 5px;
+}
+
+nav a.active{
+    color: var(--darkgreen);
+    background-color: var(--green);
+}
+
+nav a:hover{
+    color: var(--darkgreen);
+    background-color: var(--green);
+    text-decoration: underline;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding: 20px;
+    min-width: 300px;
+    max-width: 950px;
+    min-height: 420px;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 0px 0px 10px 10px;
+    border-style: solid;
+    border-top: none;
+    border-width: 1px;
+    border-color: var(--purple);
+    box-shadow: 5px 5px 10px #00eea36e;
+}
+
+main h1{
+    padding: 10px;
+    color: var(--lightgreen);
+    font-size: 3em;
+}
+
+main h2{
+    padding: 10px;
+    color: var(--lightgreen);
+}
+
+/*//ABOUT//*/
+.container{ 
+    margin: auto;
+}
+
+.about{
+    width: 1000px;
+    max-width: 100%;
+    padding: 10px 0px;
+}
+
+#textabout{
+    color: white;
+    padding: 0px 10px;
+    text-indent: 15px;
+}
+
+#textabout .hello{
+    font-family: var(--Montserrat);
+    font-weight: 500;
+    font-size: 3em;
+}
+
+#textabout .welcome{
+    padding: 0px 10px;
+}
+
+#textabout .myname{
+    padding: 0px 10px;
+    margin-bottom: 10px;
+}
+
+#textabout h1{
+    padding: 0px 10px;
+    background-image: linear-gradient(to right, var(--green), var(--lightgreen), var(--lightgreen), white);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 4.5em;
+    font-family: var(--handwrite);
+    font-weight: normal;
+    margin: auto;
+}
+
+div img{
+    max-width: 300px;
+    width: 100%;
+}
+
+#image {
+    padding: 10px;
+}
+
+main p{
+    max-width: 470px;
+    padding: 0px 10px;
+    text-align: justify;
+    font-size: 1.2em;
+    color: var(--lightgreen);
+}
+
+footer{
+    background-color: var(--darkpurple);
+    font-family: var(--orbitron);
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    color: var(--green);
+    padding: 10px;
+    text-align: center;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    max-width: 100px;
+    list-style: none;
+}
+
+footer p{
+    padding: 7px;
+}
+
+
+
+
+
+
