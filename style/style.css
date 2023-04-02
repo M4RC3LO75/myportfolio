@@ -33,10 +33,14 @@
 }
 
 body{
-    
-    background-image: linear-gradient(to right, var(--darkpurple), black, black, black, black, black, black, black, black, var(--darkpurple));
     font-family: var(--Montserrat);
     color: white;
+    height: 98vh;
+    background-color: black;
+    background-image: url('../images/purple-code.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
 header{
