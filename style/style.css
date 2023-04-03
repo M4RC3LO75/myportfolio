@@ -133,7 +133,7 @@ div.content-box{
 #text{
     position:relative;
     padding: 20px;
-    max-width: 500px;
+    max-width: 400px;
     font-family: var(--Montserrat);
     color: var(--lightgreen);
 }
@@ -148,6 +148,7 @@ h1.name{
     font-family: var(--handwrite);
     font-size: 5vw;
     font-weight: normal;
+    text-align: center;
     text-shadow: 2px 2px 3.5px #8a35c8;
 }
 
@@ -155,7 +156,7 @@ p{
     font-size: 1.2em;
     font-weight: normal;
     line-height: 1.7em;
-    text-justify: auto;
+    text-align: justify;
 }
 
 #picture{
