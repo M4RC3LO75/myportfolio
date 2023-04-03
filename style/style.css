@@ -140,13 +140,13 @@ div.content-box{
 
 h1{
     color: var(--green);
-    font-size: 3em;
+    font-size: 3vw;
 }
 
 h1.name{
     color: var(--green);
     font-family: var(--handwrite);
-    font-size: 5em;
+    font-size: 5vw;
     font-weight: normal;
     text-shadow: 2px 2px 3.5px #8a35c8;
 }
@@ -155,6 +155,7 @@ p{
     font-size: 1.2em;
     font-weight: normal;
     line-height: 1.7em;
+    text-justify: auto;
 }
 
 #picture{
@@ -164,8 +165,6 @@ p{
     background-size: contain;
     width: 280px;
     height: 300px;
-    display: flex;
-    align-items: center;
 }
 
 p.who-am-i{
