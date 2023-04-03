@@ -32,11 +32,6 @@
     justify-content: space-evenly;
 }
 
-*{
-    margin: 0px;
-    padding: 0px;
-}
-
 body{
     font-family: var(--Montserrat);
     color: white;
@@ -101,7 +96,7 @@ nav a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70vh;
+    min-height: 67vh;
     padding: 10px;
     background-attachment: fixed;
 }
@@ -114,6 +109,10 @@ nav a:hover{
     display: flex;
     justify-content: center;
     box-shadow: inset 0px 10px 10px #00eea371;
+}
+
+main{
+    margin-bottom: 5px;
 }
 
 div.content-box{
