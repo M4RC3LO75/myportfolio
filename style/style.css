@@ -120,7 +120,8 @@ div.content-box{
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
     margin: 0px 20px 10px 20px;
-    max-height: 500px;
+    min-height: 350px;
+    max-height: 450px;
     width: 900px;
     border-radius: 0px 0px 15px 15px;
     display: flex;
@@ -172,6 +173,7 @@ p.who-am-i{
 }
 
 footer{
+    margin-top: 10px;
     color: var(--green);
     text-align: center;
 }
