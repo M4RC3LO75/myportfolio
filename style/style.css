@@ -119,8 +119,8 @@ div.content-box{
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
     margin: 0px 20px 10px 20px;
-    min-height: 350px;
-    max-height: 70vh;
+    min-width: 350px;
+    height: 70vh;
     width: 900px;
     border-radius: 0px 0px 15px 15px;
     display: flex;
@@ -131,9 +131,9 @@ div.content-box{
 }
 
 #text{
-    position:relative;
     padding: 20px;
-    max-width: 400px;
+    height: 320px;
+    max-width: 450px;
     font-family: var(--Montserrat);
     color: var(--lightgreen);
 }
