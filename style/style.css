@@ -146,7 +146,7 @@ h1{
 h1.name{
     color: var(--green);
     font-family: var(--handwrite);
-    font-size: 5vw;
+    font-size: 4.5vw;
     font-weight: normal;
     text-align: center;
     text-shadow: 2px 2px 3.5px #8a35c8;
