@@ -91,14 +91,17 @@ nav a:hover{
 #bck-image{
     background-image: url('../images/purple-code.jpg');
     background-size: cover;
+    background-position: center top;
     position: relative;
     background-repeat: no-repeat;
+    min-height: 400px;
+    max-height: 515px;
+    height: 80vh;
+    padding: 10px;
+    background-attachment: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 67vh;
-    padding: 10px;
-    background-attachment: fixed;
 }
 #bck-effect {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2),black,black, black, black, black, black, rgba(0, 0, 0, 0.2));
@@ -111,29 +114,27 @@ nav a:hover{
     box-shadow: inset 0px 10px 10px #00eea371;
 }
 
-main{
-    margin-bottom: 5px;
-}
-
 div.content-box{
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
     margin: 0px 20px 10px 20px;
-    min-width: 350px;
-    height: 70vh;
     width: 900px;
+    min-width: 350px;
+    min-height: 350px;
+    max-height: 450px;
+    height: 70vh;
     border-radius: 0px 0px 15px 15px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     border: 1px solid var(--purple);
-    box-shadow:  0px 10px 20px 5px #00eea34d;
+    box-shadow:  0px 10px 10px 1px #00eea330;
 }
 
 #text{
-    padding: 20px;
+    padding: 10px;
     height: 320px;
-    max-width: 450px;
+    max-width: 550px;
     font-family: var(--Montserrat);
     color: var(--lightgreen);
 }
@@ -173,12 +174,12 @@ p.who-am-i{
 }
 
 footer{
-    margin-top: 10px;
     color: var(--green);
-    text-align: center;
+    background-color: var(--darkpurple);
 }
 
 footer > p {
     padding: 8px;
     font-family: var(--orbitron);
+    text-align: center;
 }
