@@ -88,6 +88,10 @@ nav a:hover{
     text-decoration: underline;
 }
 
+main{
+    min-height: 72.5vh;
+}
+
 #bck-image{
     background-image: url('../images/purple-code.jpg');
     background-size: cover;
@@ -137,17 +141,21 @@ div.content-box{
     max-width: 550px;
     font-family: var(--Montserrat);
     color: var(--lightgreen);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 h1{
     color: var(--green);
-    font-size: 3vw;
+    font-size: 1.8em;
 }
 
 h1.name{
     color: var(--green);
     font-family: var(--handwrite);
-    font-size: 4.5vw;
+    font-size: 8vh;
     font-weight: normal;
     text-align: center;
     text-shadow: 2px 2px 3.5px #8a35c8;
@@ -156,7 +164,6 @@ h1.name{
 p{
     font-size: 1.2em;
     font-weight: normal;
-    line-height: 1.7em;
     text-align: justify;
 }
 
