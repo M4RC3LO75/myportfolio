@@ -35,7 +35,7 @@ html, body {
 
 
 body header {
-    height: 130px;
+    display: block;
     color: #00eea2;
 }
 
@@ -54,11 +54,13 @@ span#burger {
     color: var(--green);
     padding: 5px;
     cursor: pointer;
+    box-shadow: 0px 2px 10px var(--green);
 }
 
 span#burger:hover {
     background-color: var(--green);
     color: var(--darkgreen);
+    transition: 0.3s;
 }
 
 menu {
@@ -71,9 +73,84 @@ nav {
 
 nav a {
     display: block;
+    margin: 3px 0px 0px 10px;
     padding: 8px;
+    width: 200px;
     text-decoration: none;
+    font-weight: bold;
     background-color: var(--green);
     color: var(--purple);
     border: 1px solid var(--darkgreen);
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: var(--darkgreen);
+    color: var(--green);
+    box-shadow: 2px 2px 7px var(--green);
+    transform: translate(-3px, -3px);
+    transition: 0.3s;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    max-width: 80vw;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 0px 0px 10px 10px;
+    border: 1px solid var(--purple);
+    border-top: none;
+    box-shadow: 0px 1px 10px var(--purple);
+}
+
+h1.name {
+    font-family: var(--handwrite);
+    font-size: 2.3em;
+    font-weight: normal;
+    padding: 5px;
+    margin: 20px 0px;
+    text-indent: 10px;
+}
+
+div p {
+    text-indent: 10px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+footer {
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+footer div {
+    padding: 5px;
+}
+
+footer p{
+    padding: 5px;
+}
+
+footer div img#github {
+    height: 100px;
+    text-decoration: none;
+}
+
+footer div img#github:hover {
+    cursor: pointer;
+}
+
+footer div img#linkedin {
+    height: 100px;
+    text-decoration: none;
+}
+
+footer div img#linkedin:hover {
+    cursor: pointer;
 }
