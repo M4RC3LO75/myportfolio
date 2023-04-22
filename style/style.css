@@ -118,7 +118,7 @@ h1.name {
 }
 
 div p {
-    text-indent: 10px;
+    text-indent: 30px;
     text-align: justify;
     line-height: 25px;
 }
@@ -137,20 +137,7 @@ footer p{
     padding: 5px;
 }
 
-footer div img#github {
-    height: 100px;
-    text-decoration: none;
-}
-
-footer div img#github:hover {
-    cursor: pointer;
-}
-
-footer div img#linkedin {
-    height: 100px;
-    text-decoration: none;
-}
-
-footer div img#linkedin:hover {
-    cursor: pointer;
+footer div a img.icon {
+    margin: 0px 15px;
+    height: 50px;
 }
