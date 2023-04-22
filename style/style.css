@@ -100,7 +100,7 @@ main {
 
 section {
     max-width: 80vw;
-    padding: 10px;
+    padding: 15px;
     margin-bottom: 10px;
     border-radius: 0px 0px 10px 10px;
     border: 1px solid var(--purple);
@@ -124,6 +124,9 @@ div p {
 }
 
 footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
     margin-top: 10px;
     padding: 5px;
     text-align: center;
