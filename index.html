@@ -5,18 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Marcelo Bastos</title>
-    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css" media="all">
+    <link rel="stylesheet" href="style/media-query.css">
     <link rel="shortcut icon" href="./images/m-icon.png" type="image/x-icon">
 </head>
 <body>
     <header>
         <h1>Portfolio</h1>
+        <span id="burger" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="items">
+            <nav>
+                <a href="#" class="active">Home</a>
+                <a href="#">Minhas Habilidades</a>
+                <a href="#">Meus Projetos</a>
+            </nav>
+        </menu>
     </header>
-    <nav>
-        <a href="#" class="active">Home</a>
-        <a href="#">Minhas Habilidades</a>
-        <a href="#">Meus Projetos</a>
-    </nav>
     <main>
         <section id="bck-image">
             <article id="bck-effect">
@@ -36,6 +42,15 @@
             </article>
         </section>
     </main>
+    <script>
+        function clickMenu(){
+            if (items.style.display == 'block') {
+                items.style.display = 'none'
+            } else {
+                itens.display = 'block'
+            }
+        }
+    </script>
     <footer>
         <p>Acesse meus links.</p>
     </footer>
