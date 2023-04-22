@@ -27,7 +27,7 @@ body {
 }
 
 html, body {
-    height: 100vh;
+    min-height: 100vh;
     background-color: black;
     color: var(--green);
 }
@@ -93,9 +93,11 @@ nav a:hover {
 }
 
 main {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 3rem;
 }
 
 section {
@@ -125,7 +127,8 @@ div p {
 
 footer {
     bottom: 0;
-    position: fixed;
+    position: absolute;
+    margin: auto;
     width: 100%;
     margin-top: 10px;
     padding: 5px;
