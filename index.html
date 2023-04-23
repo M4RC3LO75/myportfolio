@@ -11,54 +11,64 @@
     <link rel="stylesheet" href="style/media-query.css">
     <link rel="shortcut icon" href="./images/m-icon.png" type="image/x-icon">
 </head>
-<body>
+<body onresize="sizeChanged()">
     <header>
         <h1>Portfolio</h1>
-        <span id="burger" class="material-icons" onclick="clickMenu()">menu</span>
+        <div id="burger" onclick="clickMenu()">
+            <span class="material-icons">menu</span>
+            <p class="menu">Menu</p>
+        </div>
         <menu id="items">
             <nav>
-                <a href="#" class="active">Home</a>
+                <a href="./index.html" class="active">Home</a>
                 <a href="#">Minhas Habilidades</a>
-                <a href="#">Meus Projetos</a>
+                <a href="#">Projetos Pessoais</a>
             </nav>
         </menu>
     </header>
     <main>
-        <section id="bck-image">
-            <div id="bck-effect">
-                <div class="content-box">
+        <section id="bckImage">
+            <div id="bckEffect">
+                <div id="contentBox">
                     <div id="text">
                         <h1>Olá!</h1>
                         <h2>Seja Bem Vindo(a)</h2>
                         <p>Meu nome é</p>
                         <h1 class="name">Marcelo Bastos</h1>
-                        <p class="who-am-i">Sempre fui apaixonado por tecnologia e mantive contato por meio de profissões como técnico e designer.</p>
-                        <p>Agora estou focado na área de desenvolvedor e estou aprendendo muito.</p>
+                        <p class="who-am-i">Sempre fui apaixonado por tecnologia e mantive contato por meio de profissões como técnico em Desktop e Notebooks, e designer em Comunicação Visual.</p>
+                        <p>Agora estou ingressando na área de desenvolvedor e estou aprendendo muito.</p>
                     </div>
                     <div id="picture"></div>
                 </div>
             </div>
         </section>
     </main>
-    <footer>
-        <p>Acesse meus links.</p>
-        <div class="socialpages">
-            <a href="https://github.com/M4RC3LO75" id="github" target="_blank">
-                <img src="./images/github-limegreen.png" alt="GitHub" class="icon">
-            </a>
-            <a href="https://www.linkedin.com/in/m4rc3lo/" id="linkedin" target="_blank">
-                <img src="./images/linkedin-limegreen.png" alt="LinkedIn" class="icon">
-            </a>
-        </div>
-    </footer>
     <script>
+        function sizeChanged(){
+            if (window.innerWidth >= 768) {
+                items.style.display = 'block'
+            } else {
+                items.style.display = 'none'
+            }
+        }
         function clickMenu(){
-            if (items.style.display == 'block') {
+            if (items.style.display == 'flex') {
                 items.style.display = 'none'
             } else {
-                items.style.display = 'block'
+                items.style.display = 'flex'
             }
         }
     </script>
 </body>
+<footer>
+    <p>Acesse meus links.</p>
+    <div>
+        <a href="https://github.com/M4RC3LO75" id="github" target="_blank">
+            <img src="./images/github-limegreen.png" alt="GitHub" class="icon">
+        </a>
+        <a href="https://www.linkedin.com/in/m4rc3lo/" id="linkedin" target="_blank">
+            <img src="./images/linkedin-limegreen.png" alt="LinkedIn" class="icon">
+        </a>
+    </div>
+</footer>
 </html>

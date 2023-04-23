@@ -22,27 +22,24 @@
     font-family: var(--Montserrat);
 }
 
-body {
+ html, body {
     position: relative;
     width: 100vw;
-}
-
-html, body {
-    min-height: 98vh;
+    min-height: 100vh;
     background-color: black;
     color: var(--green);
 }
 
-
-
 body header {
-    display: block;
+    position: relative;
+    align-items: center;
+    width: 100%;
     color: #00eea2;
 }
 
 body header h1 {
     height: 60px;
-    background-image: linear-gradient(to bottom, #8a35c8, black, black, black, #8a35c8);
+    background-image: linear-gradient(to top, #8a35c8, black, black, black, #8a35c8);
     display: block;
     padding-top: 20px;
     font-family: var(--orbitron);
@@ -50,34 +47,48 @@ body header h1 {
     text-align: center;
 }
 
-span#burger {
-    display: block;
-    color: var(--green);
-    padding: 5px;
-    cursor: pointer;
+body header div#burger {
+    display: flex;
+    align-items: center;
+    width: 100%;
     border-bottom: 1px solid var(--green);
+    color: var(--green);
 }
 
-span#burger:hover {
+body header div#burger:hover {
     background-color: var(--green);
     color: var(--darkgreen);
     transition: 0.3s;
+    cursor: pointer;
 }
 
-menu {
+body header div p.menu {
+    text-indent: 5px;
+}
+
+body header div span {
+    display: block;
+    padding: 5px;
+    margin-left: 5px
+}
+
+body header menu {
+    width: 100%;
     display: none;
 }
 
-nav {
+body header menu nav {
     display: block;
+    width: 100%;
+    border-bottom: 1px solid var(--green);
 }
 
-nav a {
+body header menu nav a {
     display: block;
-    margin: 3px 0px 0px 10px;
-    padding: 8px;
-    width: 200px;
+    margin: 3px 40% 0px 10px;
+    padding: 8px 15px;
     text-decoration: none;
+    font-family: var(--orbitron);
     font-weight: bold;
     background-color: var(--green);
     color: var(--purple);
@@ -85,29 +96,37 @@ nav a {
     border-radius: 5px;
 }
 
-nav a:hover {
+body header menu nav a:hover {
     background-color: var(--darkgreen);
     color: var(--green);
     box-shadow: 2px 2px 7px var(--green);
     transform: translate(-3px, -3px);
     transition: 0.3s;
+    text-decoration: underline;
 }
 
 main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 7rem;
+    height: 100%;
+    width: 100%;
 }
 
 section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 6.5rem;
+}
+
+section div#contentBox {
+    min-width: 325px;
     max-width: 80vw;
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 0px 0px 10px 10px;
     border: 1px solid var(--purple);
     border-top: none;
-    box-shadow: 0px 1px 10px var(--purple);
+    background-color: rgba(0, 0, 0, 0.498);
+    box-shadow: 0px 1px 10px var(--purple), 0px 1px 10px var(--purple);
 }
 
 h1.name {
@@ -127,12 +146,11 @@ div p {
 
 footer {
     position: absolute;
-    bottom: 0;
-    height: 6rem;
-    width: 100vw;
-    margin: auto;
-    margin-top: 10px;
-    padding: 5px;
+    bottom: 0px;
+    background-color: var(--darkgreen);
+    float: bottom;
+    height: 6.5rem;
+    width: 100%;
     text-align: center;
     border-top: 1px solid var(--green);
 }
