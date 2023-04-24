@@ -20,9 +20,9 @@
         </div>
         <menu id="items">
             <nav>
-                <a href="./index.html" class="active">Home</a>
-                <a href="./page002.html">Minhas Habilidades</a>
-                <a href="#">Projetos Pessoais</a>
+                <a class="menu active" href="./index.html" class="active">Home</a>
+                <a class="menu" href="./page002.html">Minhas Habilidades</a>
+                <a class="menu" href="#">Projetos Pessoais</a>
             </nav>
         </menu>
     </header>
@@ -41,22 +41,7 @@
             </div>
         </section>
     </main>
-    <script>
-        function sizeChanged(){
-            if (window.innerWidth >= 768) {
-                items.style.display = 'block'
-            } else {
-                items.style.display = 'none'
-            }
-        }
-        function clickMenu(){
-            if (items.style.display == 'flex') {
-                items.style.display = 'none'
-            } else {
-                items.style.display = 'flex'
-            }
-        }
-    </script>
+    
 </body>
 <footer>
     <p>Acesse meus links.</p>
