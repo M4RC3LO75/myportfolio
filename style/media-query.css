@@ -46,6 +46,12 @@ TV:  acima de 1200px
         text-shadow: 0px 0px 2px var(--darkgreen), 0px 0px 2px var(--darkgreen), 0px 0px 2px var(--darkgreen), 0px 0px 10px var(--green), 0px 0px 10px var(--green);
     }
 
+    section div#contentBox {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
     section div#text {
         width: 55%;
     }
@@ -55,13 +61,7 @@ TV:  acima de 1200px
         background-size: contain;
         background-position: center;
         width: 40%;
-        height: 35vh;
-    }
-
-    section div#contentBox {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        min-height: 200px;
     }
 
 }
@@ -99,8 +99,14 @@ TV:  acima de 1200px
     }
 
     section div h1.name {
-        font-size: 4em;
+        font-size: 300%;
         text-shadow: 0px 0px 2px var(--darkgreen), 0px 0px 2px var(--darkgreen), 0px 0px 2px var(--darkgreen), 0px 0px 10px var(--green), 0px 0px 10px var(--green);
+    }
+    section div#contentBox {
+        max-width: 60vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
     }
 
     section div#text {
@@ -112,13 +118,7 @@ TV:  acima de 1200px
         background-size: contain;
         background-position: center;
         width: 40%;
-        height: 35vh;
+        min-height: 200px;
     }
 
-    section div#contentBox {
-        max-width: 60vw;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
 }
