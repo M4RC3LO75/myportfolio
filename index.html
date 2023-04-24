@@ -18,11 +18,11 @@
             <span class="material-icons">menu</span>
             <p class="menu">Menu</p>
         </div>
-        <menu id="items">
+        <menu id="menu">
             <nav>
-                <a href="./index.html" class="active">Home</a>
-                <a href="./page002.html">Minhas Habilidades</a>
-                <a href="#">Projetos Pessoais</a>
+                <a class="item selected" href="./index.html" class="active">Home</a>
+                <a class="item" href="./page002.html">Minhas Habilidades</a>
+                <a class="item" href="#">Projetos Pessoais</a>
             </nav>
         </menu>
     </header>
@@ -44,16 +44,16 @@
     <script>
         function sizeChanged(){
             if (window.innerWidth >= 768) {
-                items.style.display = 'block'
+                menu.style.display = 'block'
             } else {
-                items.style.display = 'none'
+                menu.style.display = 'none'
             }
         }
         function clickMenu(){
-            if (items.style.display == 'flex') {
-                items.style.display = 'none'
+            if (menu.style.display == 'flex') {
+                menu.style.display = 'none'
             } else {
-                items.style.display = 'flex'
+                menu.style.display = 'flex'
             }
         }
     </script>
