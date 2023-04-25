@@ -9,21 +9,23 @@
       rel="stylesheet">
     <link rel="shortcut icon" href="./images/m-icon.png" type="image/x-icon">
     <link rel="stylesheet" href="./style/stylePag002.css">
+    <link rel="stylesheet" href="./style/queryPag002.css">
 </head>
-<body>
+<body onresize="sizeChanged()">
     <header>
         <h1>Portfolio</h1>
-        <div id="burger" onclick="clickMenu()">
+        <div id="burger">
             <span class="material-icons">menu</span>
             <p class="menu">Menu</p>
         </div>
-        <menu id="items">
+        <menu id="menu">
             <nav>
-                <a href="./index.html" class="active">Home</a>
-                <a href="./page002.html">Minhas Habilidades</a>
-                <a href="#">Projetos Pessoais</a>
+                <a class="item" href="./index.html" class="active">Home</a>
+                <a class="item selected" href="./page002.html">Minhas Habilidades</a>
+                <a class="item" href="#">Projetos Pessoais</a>
             </nav>
         </menu>
     </header>
+    <script src="./JS/script.js"></script>
 </body>
 </html>

@@ -14,7 +14,7 @@
 <body onresize="sizeChanged()">
     <header>
         <h1>Portfolio</h1>
-        <div id="burger" onclick="clickMenu()">
+        <div id="burger">
             <span class="material-icons">menu</span>
             <p class="menu">Menu</p>
         </div>
@@ -41,22 +41,7 @@
             </div>
         </section>
     </main>
-    <script>
-        function sizeChanged(){
-            if (window.innerWidth >= 768) {
-                menu.style.display = 'block'
-            } else {
-                menu.style.display = 'none'
-            }
-        }
-        function clickMenu(){
-            if (menu.style.display == 'flex') {
-                menu.style.display = 'none'
-            } else {
-                menu.style.display = 'flex'
-            }
-        }
-    </script>
+    <script src="./JS/script.js"></script>
 </body>
 <footer>
     <p>Acesse meus links.</p>

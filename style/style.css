@@ -72,7 +72,7 @@ body header div span {
     margin-left: 5px
 }
 
-body header menu {
+body header menu#menu {
     width: 100%;
     display: none;
 }

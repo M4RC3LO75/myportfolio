@@ -96,6 +96,14 @@ body header menu nav a {
     border-radius: 5px;
 }
 
+body header menu nav a.selected {
+    background-color: var(--darkgreen);
+    color: var(--green);
+    box-shadow: 2px 2px 7px var(--green);
+    transform: translate(-3px, -3px);
+    transition: 0.3s;
+}
+
 body header menu nav a:hover {
     background-color: var(--darkgreen);
     color: var(--green);
