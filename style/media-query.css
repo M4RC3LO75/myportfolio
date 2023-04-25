@@ -99,11 +99,12 @@ TV:  acima de 1200px
     }
 
     section div h1.name {
-        font-size: 300%;
+        font-size: 280%;
         text-shadow: 0px 0px 2px var(--darkgreen), 0px 0px 2px var(--darkgreen), 0px 0px 2px var(--darkgreen), 0px 0px 10px var(--green), 0px 0px 10px var(--green);
     }
     section div#contentBox {
-        max-width: 60vw;
+        min-height: 50vh;
+        max-width: 50%;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -117,7 +118,7 @@ TV:  acima de 1200px
         background: url(../images/photo.png) no-repeat;
         background-size: contain;
         background-position: center;
-        width: 40%;
+        width: 30%;
         min-height: 200px;
     }
 

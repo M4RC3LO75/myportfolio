@@ -14,15 +14,15 @@
 <body onresize="sizeChanged()">
     <header>
         <h1>Portfolio</h1>
-        <div id="burger" onclick="clickMenu()">
+        <div id="burger">
             <span class="material-icons">menu</span>
             <p class="menu">Menu</p>
         </div>
-        <menu id="items">
+        <menu id="menu">
             <nav>
-                <a class="menu active" href="./index.html" class="active">Home</a>
-                <a class="menu" href="./page002.html">Minhas Habilidades</a>
-                <a class="menu" href="#">Projetos Pessoais</a>
+                <a class="item selected" href="./index.html" class="active">Home</a>
+                <a class="item" href="./page002.html">Minhas Habilidades</a>
+                <a class="item" href="#">Projetos Pessoais</a>
             </nav>
         </menu>
     </header>
@@ -41,7 +41,7 @@
             </div>
         </section>
     </main>
-    
+    <script src="./JS/script.js"></script>
 </body>
 <footer>
     <p>Acesse meus links.</p>
