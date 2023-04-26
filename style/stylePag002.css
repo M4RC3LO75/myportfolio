@@ -142,14 +142,14 @@ body main div p.icon1 {
     justify-content: center;
     width: 100%;
     gap: 30px;
-    margin-top: -10px;
+    margin-top: -40px;
 }
 
 body main div img {
     padding: 5px;
     width: 60px;
     height: 60px;
-    margin-top: 10px;
+    margin-top: 40px;
 
 }
 
@@ -162,4 +162,10 @@ body main div p.subtitle {
 
 body main div p {
     text-indent: 1em;
+}
+
+body main div p a {
+    text-decoration-thickness: 2px;
+    font-style: italic;
+    color: var(--green);
 }
