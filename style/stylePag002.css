@@ -24,7 +24,7 @@
 
  html, body {
     position: relative;
-    width: 100vw;
+    width: 100%;
     min-height: 100vh;
     background-color: black;
     color: var(--green);
@@ -111,4 +111,43 @@ body header menu nav a:hover {
     transform: translate(-3px, -3px);
     transition: 0.3s;
     text-decoration: underline;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+body main div#main {
+    padding: 20px;
+    height: 100%;
+    margin: 0px 20px;
+    min-width: 200px;
+    max-width: 800px;
+    border: 1px solid var(--purple);
+    box-shadow: 0px 5px 10px var(--purple), 0px 5px 10px var(--purple);
+    border-radius: 0px 0px 10px 10px;
+    text-align: justify;
+}
+
+body main div img {
+    box-shadow: 0px 0px 7px var(--green);
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+body main div p.subtitle {
+    margin-top: 10px;
+    text-align: center;
+    font-family: var(--orbitron);
+    font-weight: bold;
+    text-indent: 0px;
+}
+
+body main div p {
+    text-indent: 1em;
 }
