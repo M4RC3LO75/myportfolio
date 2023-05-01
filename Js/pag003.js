@@ -6,13 +6,25 @@ const images = [
     {'id':'3', 'url': './images/bg-traffic-light.png'},
 ]
 
+const titles = [
+    {'id': '1', 'innerText': 'To Do List'},
+    {'id': '2', 'innerText': 'Login Page'},
+    {'id': '3', 'innerText': 'Traffic Light'},
+]
+
 const containerItems = document.querySelector('#container-items');
 
+const title = document.querySelector('#title');
+
 const loadImages = (images, container) => {
-    images.forEach (image => {container.innerHTML += `<div class='img-item'><img src='${image.url}'></div>`});
+    images.forEach (image => {container.innerHTML += `<div class='img-item' id='${image.id}'><img src='${image.url}'></div>`});
 }
 
-loadImages (images, containerItems);
+const loadTitle = () => {
+    
+}
+
+loadImages (images, containerItems, loadTitle);
 
 let imgItems = document.querySelectorAll('.img-item');
 
