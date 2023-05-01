@@ -122,8 +122,7 @@ main {
 body main div#main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    align-items: end;
     
     padding: 20px;
     height: 100%;
@@ -137,34 +136,46 @@ body main div#main {
     text-align: justify;
 }
 
-body main div div.icon {
+body main div#container-slide {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+    width: 95%;
+    height: 40vw;
+    max-height: 400px;
+    background-color: gray;
+    border-radius: 10px;
+    box-shadow: 0 0 10px var(--green), 0 0 10px var(--green);
+    overflow: hidden;
+}
+
+.action-button {
     display: flex;
     justify-content: center;
-    width: 100%;
-    gap: 30px;
-    margin-top: -40px;
+    align-items: center;
+    background-color: #08463229;
+    height: 100%;
+    width: 50px;
+    cursor: pointer;
+    user-select: none;
 }
 
-body main div img {
-    padding: 5px;
-    width: 60px;
-    height: 60px;
-    margin-top: 40px;
+#linkbuttons {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    margin: 10px 10px;
+    gap: 5px;
 }
 
-body main div p.subtitle {
-    margin: 10px;
+.linkbutton {
+    padding: 10px;
     font-family: var(--orbitron);
     font-weight: bold;
-    text-indent: 0px;
-}
-
-body main div p {
-    text-indent: 1em;
-    line-height: 1.3rem;
-}
-
-body main div p a {
-    font-style: italic;
+    background-color: var(--darkgreen);
     color: var(--green);
+    border: 1px solid var(--green);
+    border-radius: 7px;
+    cursor: pointer;
 }
