@@ -127,27 +127,36 @@ body main div#main {
     padding: 20px;
     height: 100%;
     width: 100%;
-    margin: 0px 20px;
+    margin: 0px 20px 20px 20px;
     min-width: 200px;
-    max-width: 800px;
+    max-width: 700px;
     border: 1px solid var(--purple);
     box-shadow: 0px 5px 10px var(--purple), 0px 5px 10px var(--purple);
     border-radius: 0px 0px 10px 10px;
     text-align: justify;
 }
 
+#title {
+    margin: auto;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
 body main div#container-slide {
+    background-image: url(../images/bg-login.png);
+    background-size: contain;
+    background-position: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 10px auto;
     width: 95%;
-    height: 40vw;
-    max-height: 400px;
+    height: 42vw;
+    max-height: 350px;
     background-color: gray;
     border-radius: 10px;
     box-shadow: 0 0 10px var(--green), 0 0 10px var(--green);
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .action-button {
@@ -155,10 +164,17 @@ body main div#container-slide {
     justify-content: center;
     align-items: center;
     background-color: #08463229;
+    color: #00eea289;
     height: 100%;
     width: 50px;
     cursor: pointer;
     user-select: none;
+    font-size: 2rem;
+}
+
+.action-button:hover {
+    color: #00eea2;
+    text-shadow: 0px 0px 5px #084632, 0px 0px 5px #084632, 0px 0px 5px #084632, 0px 0px 7px #00eea2;
 }
 
 #linkbuttons {

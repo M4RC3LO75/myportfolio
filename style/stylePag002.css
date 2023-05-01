@@ -128,7 +128,7 @@ body main div#main {
     padding: 20px;
     height: 100%;
     width: 100%;
-    margin: 0px 20px;
+    margin: 0px 20px 20px 20px;
     min-width: 200px;
     max-width: 800px;
     border: 1px solid var(--purple);
