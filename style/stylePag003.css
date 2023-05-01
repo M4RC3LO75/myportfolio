@@ -78,14 +78,16 @@ body header menu {
 }
 
 body header menu nav {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    gap: 1px;
     width: 100%;
     border-bottom: 1px solid var(--green);
 }
 
 body header menu nav a {
-    display: block;
-    margin: 3px 40% 0px 10px;
+    margin: 3px 0 0px 10px;
     padding: 8px 15px;
     text-decoration: none;
     font-family: var(--orbitron);
@@ -143,7 +145,8 @@ body main div#main {
 }
 
 body main div#container-slide {
-    background-image: url(../images/bg-login.png);
+    /* background-image: url(../images/bg-login.png); */
+    position: relative;
     background-size: contain;
     background-position: center;
     display: flex;
@@ -156,7 +159,31 @@ body main div#container-slide {
     background-color: gray;
     border-radius: 10px;
     box-shadow: 0 0 10px var(--green), 0 0 10px var(--green);
-    /* overflow: hidden; */
+    overflow: hidden;
+}
+
+body main div.container-items {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.img-item {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+}
+
+.img-item:first-child {
+    margin-left: -100%;
+}
+
+.img-item img {
+    width: 100vw;
 }
 
 .action-button {
@@ -170,6 +197,7 @@ body main div#container-slide {
     cursor: pointer;
     user-select: none;
     font-size: 2rem;
+    z-index: 1;
 }
 
 .action-button:hover {
