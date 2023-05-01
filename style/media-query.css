@@ -25,7 +25,7 @@ TV:  acima de 1200px
     body header div#burger {
         display: none;
     }
-    body header menu {
+    body header menu#menu {
         display: flex;
         text-align: right;
         background-color: var(--green);
