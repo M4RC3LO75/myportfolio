@@ -1,9 +1,9 @@
 'use strict';
 
 const images = [
-    {'id': '1', 'url':'./images/bg-to-do-list-1.png'},
-    {'id':'2', 'url': './images/bg-login.png'},
-    {'id':'3', 'url': './images/bg-traffic-light.png'},
+    {'id': '1', 'url':'./images/bg-to-do-list-1.png', 'innerText': 'To Do List'},
+    {'id':'2', 'url': './images/bg-login.png', 'innerText': 'Login Page'},
+    {'id':'3', 'url': './images/bg-traffic-light.png', 'innerText': 'Traffic Light'},
 ]
 
 const titles = [
@@ -14,17 +14,14 @@ const titles = [
 
 const containerItems = document.querySelector('#container-items');
 
-const title = document.querySelector('#title');
+const containerTitles = document.querySelector('#title');
 
-const loadImages = (images, container) => {
+const loadImages = (images, container, titles, textcontainer) => {
     images.forEach (image => {container.innerHTML += `<div class='img-item' id='${image.id}'><img src='${image.url}'></div>`});
+    titles.forEach (title => {textcontainer.innerHTML += `<h1 class='text-item' id='${title.id}'>${title.innerText}</h1>`});
 }
 
-const loadTitle = () => {
-    
-}
-
-loadImages (images, containerItems, loadTitle);
+loadImages (images, containerItems, titles, containerTitles);
 
 let imgItems = document.querySelectorAll('.img-item');
 
