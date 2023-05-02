@@ -7,9 +7,9 @@ const images = [
 ]
 
 const titles = [
-    {'id': '1', 'innerText': 'To Do List'},
-    {'id': '2', 'innerText': 'Login Page'},
-    {'id': '3', 'innerText': 'Traffic Light'},
+    {'innerText': 'To Do List'},
+    {'innerText': 'Login Page'},
+    {'innerText': 'Traffic Light'},
 ]
 
 const containerItems = document.querySelector('#container-items');
