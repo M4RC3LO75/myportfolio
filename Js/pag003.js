@@ -6,6 +6,7 @@ const images = [
     {'id': '2', 'url':'./images/bg-to-do-list-1.png', 'innerText': 'Lista de Tarefas'},
     {'id': '3', 'url': './images/bg-traffic-light.png', 'innerText': 'Semáforo'},
     {'id': '4', 'url': './images/bg-bulb.png', 'innerText': 'Lâmpada'},
+    {'id': '5', 'url': './images/bg-calculator.png', 'innerText': 'Calculadora'},
 ]
 
 const descriptions = [
@@ -14,6 +15,7 @@ const descriptions = [
     {'id': '2', 'innerText': 'Uma página de lista de tarefas criada com o uso de JavaScript.'},
     {'id': '3', 'innerText': 'Usando a liguagem JavaScript, pode-se clicar nos botões para acender a cor desejada, ou acionar a troca de cores automaticamente.'},
     {'id': '4', 'innerText': `Uma lâmpada que pode ser ligada ou desligada no botão.</br>Ao ser quebrada, o botão perde sua funcionalidade.`},
+    {'id': '5', 'innerText': `Calculadora criada em JavaScript.`},
  ]
 
  const projectpages = [
@@ -22,6 +24,7 @@ const descriptions = [
     {'id': '2', 'url': 'https://m4rc3lo75.github.io/personal-projects/to-do-list/index.html'},
     {'id': '3', 'url': 'https://m4rc3lo75.github.io/personal-projects/semaphore/index.html'},
     {'id': '4', 'url': 'https://m4rc3lo75.github.io/personal-projects/lampada/index.html'},
+    {'id': '5', 'url': 'https://m4rc3lo75.github.io/personal-projects/lampada/index.html'},
  ]
 
  const gitpages = [
@@ -30,6 +33,7 @@ const descriptions = [
     {'id': '2', 'url': 'https://github.com/M4RC3LO75/personal-projects/tree/main/to-do-list'},
     {'id': '3', 'url': 'https://github.com/M4RC3LO75/personal-projects/tree/main/semaphore'},
     {'id': '4', 'url': 'https://github.com/M4RC3LO75/personal-projects/tree/main/lampada'},
+    {'id': '5', 'url': 'https://github.com/M4RC3LO75/personal-projects/tree/main/lampada'},
  ]
 
 const containerItems = document.querySelector('#container-items');
