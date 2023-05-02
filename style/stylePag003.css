@@ -87,7 +87,7 @@ body header menu nav {
 }
 
 body header menu nav a {
-    margin: 3px 0 0px 10px;
+    margin: 3px 40% 0px 10px;
     padding: 8px 15px;
     text-decoration: none;
     font-family: var(--orbitron);

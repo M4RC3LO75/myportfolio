@@ -1,9 +1,9 @@
 'use strict';
 
 const images = [
-    {'id': '0', 'url':'./images/bg-to-do-list-1.png', 'innerText': 'To Do List'},
-    {'id': '1', 'url': './images/bg-login.png', 'innerText': 'Login Page'},
-    {'id': '2', 'url': './images/bg-traffic-light.png', 'innerText': 'Traffic Light'},
+    {'id': '0', 'url':'./images/bg-to-do-list-1.png', 'innerText': 'Lista de Tarefas'},
+    {'id': '1', 'url': './images/bg-login.png', 'innerText': 'Página de Login'},
+    {'id': '2', 'url': './images/bg-traffic-light.png', 'innerText': 'Semáforo'},
     {'id': '3', 'url': './images/bg-bulb.png', 'innerText': 'Lâmpada'},
 ]
 
@@ -11,7 +11,7 @@ const descriptions = [
     {'id': '0', 'innerText': 'Uma página de lista de tarefas criada com o uso de JavaScript.'},
     {'id': '1', 'innerText': 'Página de login usando Mobile First e Media Queries.'},
     {'id': '2', 'innerText': 'Usando a liguagem JavaScript, pode-se clicar nos botões para acender a cor desejada, ou acionar a troca de cores automaticamente.'},
-    {'id': '3', 'innerText': `Uma lâmpada que pode ser ligada ou desligada no botão.</br>Ao ser quebrada o botão perde sua funcionalidade.`},
+    {'id': '3', 'innerText': `Uma lâmpada que pode ser ligada ou desligada no botão.</br>Ao ser quebrada, o botão perde sua funcionalidade.`},
  ]
 
  const projectpages = [
