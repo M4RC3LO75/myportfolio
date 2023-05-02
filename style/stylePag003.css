@@ -37,7 +37,7 @@ body header {
     color: #00eea2;
 }
 
-body header h1 {
+body header h1#titleheader {
     height: 60px;
     background-image: linear-gradient(to top, #8a35c8, black, black, black, #8a35c8);
     display: block;
