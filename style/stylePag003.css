@@ -213,7 +213,7 @@ body main div.container-items {
     flex-direction: column;
     width: 150px;
     margin: 10px 10px;
-    gap: 5px;
+    gap: 10px;
 }
 
 .linkbutton {
@@ -225,4 +225,10 @@ body main div.container-items {
     border: 1px solid var(--green);
     border-radius: 7px;
     cursor: pointer;
+}
+
+#description {
+    display: flex;
+    width: 90%;
+    margin: 10px 5% 0 5%;
 }
