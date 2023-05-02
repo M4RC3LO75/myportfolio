@@ -140,15 +140,11 @@ body main div#main {
 }
 
 body main h1#title {
-    display: flex;
     width: 100%;
-}
-
-.text-item {
-    width: 100%;
-    margin: auto;
+    text-align: center;
     font-weight: bold;
     font-size: 1.5rem;
+    margin-bottom: 10px;
 }
 
 body main div#container-slide {

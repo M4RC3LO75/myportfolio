@@ -13,12 +13,13 @@ const titles = [
 ]
 
 const containerItems = document.querySelector('#container-items');
-
 const containerTitles = document.querySelector('#title');
+var index = 1;
 
-const loadImages = (images, container, titles, textcontainer) => {
+
+const loadImages = (images, container) => {
     images.forEach (image => {container.innerHTML += `<div class='img-item' id='${image.id}'><img src='${image.url}'></div>`});
-    titles.forEach (title => {textcontainer.innerHTML += `<h1 class='text-item' id='${title.id}'>${title.innerText}</h1>`});
+    containerTitles.innerHTML = titles[index].innerText;
 }
 
 loadImages (images, containerItems, titles, containerTitles);
@@ -29,11 +30,17 @@ const previous = () => {
     const lastImgItem = imgItems[imgItems.length -1]; 
     containerItems.insertBefore(lastImgItem, imgItems[0]);
     imgItems = document.querySelectorAll('.img-item');
+    
+    index = imgItems[1].id;
+    containerTitles.innerHTML = titles[index-1].innerText;
 }
 
 const next = () => {
     containerItems.appendChild(imgItems[0]);
     imgItems = document.querySelectorAll('.img-item');
+
+    index = imgItems[1].id;
+    containerTitles.innerHTML = titles[index-1].innerText;
 }
 
 

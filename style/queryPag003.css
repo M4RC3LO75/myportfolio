@@ -10,7 +10,7 @@ Desktop:  de 992px até 1200px
 TV:  acima de 1200px
 */
 
-@media screen and (min-width: 768px) and (max-width: 992px) and (orientation:landscape){
+@media screen and (min-width: 768px) and (max-width: 992px){
     body {
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0.501),black, black, black,  rgba(0, 0, 0, 0.501)), url(../images/purple-code.jpg);
         background-position: center;
@@ -50,7 +50,7 @@ TV:  acima de 1200px
 }
 
 
-    @media screen and (min-width: 992px) and (orientation:landscape) {
+    @media screen and (min-width: 992px){
         body {
             background-image: linear-gradient(to right, rgba(0, 0, 0, 0.501),black, black, black,  rgba(0, 0, 0, 0.501)), url(../images/purple-code.jpg);
             background-position: center;
