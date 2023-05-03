@@ -24,7 +24,7 @@ const descriptions = [
     {'id': '2', 'url': 'https://m4rc3lo75.github.io/personal-projects/to-do-list/index.html'},
     {'id': '3', 'url': 'https://m4rc3lo75.github.io/personal-projects/semaphore/index.html'},
     {'id': '4', 'url': 'https://m4rc3lo75.github.io/personal-projects/lampada/index.html'},
-    {'id': '5', 'url': 'https://m4rc3lo75.github.io/personal-projects/lampada/index.html'},
+    {'id': '5', 'url': 'https://m4rc3lo75.github.io/personal-projects/calculator/index.html'},
  ]
 
  const gitpages = [
@@ -33,7 +33,7 @@ const descriptions = [
     {'id': '2', 'url': 'https://github.com/M4RC3LO75/personal-projects/tree/main/to-do-list'},
     {'id': '3', 'url': 'https://github.com/M4RC3LO75/personal-projects/tree/main/semaphore'},
     {'id': '4', 'url': 'https://github.com/M4RC3LO75/personal-projects/tree/main/lampada'},
-    {'id': '5', 'url': 'https://github.com/M4RC3LO75/personal-projects/tree/main/lampada'},
+    {'id': '5', 'url': 'https://github.com/M4RC3LO75/personal-projects/tree/main/calculator'},
  ]
 
 const containerItems = document.querySelector('#container-items');
