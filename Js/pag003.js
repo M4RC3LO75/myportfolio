@@ -3,37 +3,41 @@
 const images = [
     {'id': '0', 'url': './images/bg-login.png', 'innerText': 'Página de Login'},
     {'id': '1', 'url': './images/bg-drumkit.png', 'innerText': 'Drum Kit'},
-    {'id': '2', 'url':'./images/bg-to-do-list-1.png', 'innerText': 'Lista de Tarefas'},
-    {'id': '3', 'url': './images/bg-traffic-light.png', 'innerText': 'Semáforo'},
-    {'id': '4', 'url': './images/bg-bulb.png', 'innerText': 'Lâmpada'},
-    {'id': '5', 'url': './images/bg-calculator.png', 'innerText': 'Calculadora'},
+    {'id': '2', 'url': './images/bg-tic-tac-toe-2.0.png', 'innerText': 'Jogo da Velha'},
+    {'id': '3', 'url':'./images/bg-to-do-list-1.png', 'innerText': 'Lista de Tarefas'},
+    {'id': '4', 'url': './images/bg-traffic-light.png', 'innerText': 'Semáforo'},
+    {'id': '5', 'url': './images/bg-bulb.png', 'innerText': 'Lâmpada'},
+    {'id': '6', 'url': './images/bg-calculator.png', 'innerText': 'Calculadora'},
 ]
 
 const descriptions = [
     {'id': '0', 'innerText': 'Página de login usando Mobile First e Media Queries.'},
     {'id': '1', 'innerText': 'Divirta-se com sons de bateria clicando nos botões ou apertando as teclas do seu teclado.'},
-    {'id': '2', 'innerText': 'Uma página de lista de tarefas criada com o uso de JavaScript.'},
-    {'id': '3', 'innerText': 'Usando a liguagem JavaScript, pode-se clicar nos botões para acender a cor desejada, ou acionar a troca de cores automaticamente.'},
-    {'id': '4', 'innerText': `Uma lâmpada que pode ser ligada ou desligada no botão.</br>Ao ser quebrada, o botão perde sua funcionalidade.`},
-    {'id': '5', 'innerText': `Calculadora criada em JavaScript.`},
+    {'id': '2', 'innerText': 'Jogo da Velha criado em JavaScript com modo de jogo Player vs Player ou contra o computador.'},
+    {'id': '3', 'innerText': 'Uma página de lista de tarefas criada com o uso de JavaScript.'},
+    {'id': '4', 'innerText': 'Usando a liguagem JavaScript, pode-se clicar nos botões para acender a cor desejada, ou acionar a troca de cores automaticamente.'},
+    {'id': '5', 'innerText': `Uma lâmpada que pode ser ligada ou desligada no botão.</br>Ao ser quebrada, o botão perde sua funcionalidade.`},
+    {'id': '6', 'innerText': `Calculadora criada em JavaScript.`},
  ]
 
  const projectpages = [
     {'id': '0', 'url': 'https://m4rc3lo75.github.io/personal-projects/projeto-login/index.html'},
     {'id': '1', 'url': 'https://m4rc3lo75.github.io/personal-projects/drumkit/index.html'},
-    {'id': '2', 'url': 'https://m4rc3lo75.github.io/personal-projects/to-do-list/index.html'},
-    {'id': '3', 'url': 'https://m4rc3lo75.github.io/personal-projects/semaphore/index.html'},
-    {'id': '4', 'url': 'https://m4rc3lo75.github.io/personal-projects/lampada/index.html'},
-    {'id': '5', 'url': 'https://m4rc3lo75.github.io/personal-projects/calculator/index.html'},
+    {'id': '2', 'url': 'https://m4rc3lo75.github.io/personal-projects/tic-tac-toe-2.0/index.html'},
+    {'id': '3', 'url': 'https://m4rc3lo75.github.io/personal-projects/to-do-list/index.html'},
+    {'id': '4', 'url': 'https://m4rc3lo75.github.io/personal-projects/semaphore/index.html'},
+    {'id': '5', 'url': 'https://m4rc3lo75.github.io/personal-projects/lampada/index.html'},
+    {'id': '6', 'url': 'https://m4rc3lo75.github.io/personal-projects/calculator/index.html'},
  ]
 
  const gitpages = [
     {'id': '0', 'url': 'https://github.com/M4RC3LO75/personal-projects/tree/main/projeto-login'},
     {'id': '1', 'url': 'https://github.com/M4RC3LO75/personal-projects/tree/main/drumkit'},
-    {'id': '2', 'url': 'https://github.com/M4RC3LO75/personal-projects/tree/main/to-do-list'},
-    {'id': '3', 'url': 'https://github.com/M4RC3LO75/personal-projects/tree/main/semaphore'},
-    {'id': '4', 'url': 'https://github.com/M4RC3LO75/personal-projects/tree/main/lampada'},
-    {'id': '5', 'url': 'https://github.com/M4RC3LO75/personal-projects/tree/main/calculator'},
+    {'id': '2', 'url': 'https://github.com/M4RC3LO75/personal-projects/tree/main/tic-tac-toe-2.0'},
+    {'id': '3', 'url': 'https://github.com/M4RC3LO75/personal-projects/tree/main/to-do-list'},
+    {'id': '4', 'url': 'https://github.com/M4RC3LO75/personal-projects/tree/main/semaphore'},
+    {'id': '5', 'url': 'https://github.com/M4RC3LO75/personal-projects/tree/main/lampada'},
+    {'id': '6', 'url': 'https://github.com/M4RC3LO75/personal-projects/tree/main/calculator'},
  ]
 
 const containerItems = document.querySelector('#container-items');
